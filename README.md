@@ -45,12 +45,6 @@ from pgmpy.sampling import GibbsSampling
 import networkx as nx
 import matplotlib.pyplot as plt
 
-from pgmpy.models import BayesianNetwork, DiscreteBayesianNetwork
-from pgmpy.factors.discrete import TabularCPD
-from pgmpy.sampling import GibbsSampling
-import networkx as nx
-import matplotlib.pyplot as plt
-
 alarm_model = DiscreteBayesianNetwork(
     [
         ("Burglary", "Alarm"),
@@ -126,7 +120,5 @@ print(query_result)
 <img width="1482" height="651" alt="image" src="https://github.com/user-attachments/assets/d4171563-2bf0-4638-b0ed-e77eb24c7761" />
 <img width="1108" height="244" alt="image" src="https://github.com/user-attachments/assets/015930cd-1fe1-4a58-ac94-31c206991036" />\
 
-## Result:
-Thus, Gibb's Sampling( Approximate Inference method) is succuessfully implemented using python.
 ## Result:
 Thus, Gibb's Sampling( Approximate Inference method) is succuessfully implemented using python.
